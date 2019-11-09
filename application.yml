@@ -1,0 +1,20 @@
+spring: 
+    profiles: 
+        active: 
+        - dev
+        
+---
+
+spring: 
+    profiles: dev #开发环境
+    application: 
+        name: microservicecloud-config-cjrj-dev
+        
+---
+
+spring: 
+    profiles: test  #测试环境
+    application: 
+        name: microservicecloud-config-cjrj-test
+        
+#必须保存为UTF-8的格式
